@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    background-color: #214cf3;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 110px;
+}
+
+/* div{
+    border: 2px dashed black;
+    padding: 10px;
+} */
+
+#logo{
+    width: 20%;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#link{
+    text-align: center;
+    width: 60%;
+    flex-grow: 1;
+}
+
+#login{
+    width: 20%;
+    text-align: right;
+    color: white;
+}
+
+/* MAIN */
+
+/* section one */
+.one{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.presentation{
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.presentation > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.presentation > p{
+
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 29px;
+    margin: 10px;
+}
+
+.a{
+    background-color: white;
+    color: black;
+}
+
+.b{
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+
+
+/* section two */
+.part-img{
+    flex-grow: 1;
+    height: 400px;
+    width: 70%;
+}
+
+.item1{
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: round;
+}
+
+.item2{
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    background-repeat: round;
+}
+
+.item3{
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: round;
+}
+
+
+.part-text{
+    height: 400px;
+    width: 30%;   
+    padding: 40px;
+}
+
+.description{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* section three */
+.three{
+    background-color: lightgrey;
+}
+
+/* section five */
+.green-box{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-repeat: round;
+}
+
+.last{
+    flex-direction: column;
+    text-align: center;
+}
+
+.star{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+.c{
+    background-color: rgba(153, 50, 205, 0.5);
+    width: fit-content;
+    margin: auto;
+}
+/* section six */
+.special{
+    width: 250px;
+    color: darkorchid;
+}
+
+#question{
+    font-size: 30px;
+}
+
+.dark{
+    justify-content: space-between;
+/* debug */
+    background-color: rgb(56, 55, 55);
+}
+
+ul{
+    list-style: none;
+}
+
+ul::first-line{
+    color: blueviolet;
+    font-style: normal;
+}
+
+.block{
+    flex-grow: 1;
+    height: 400px;
+    width: 10%;
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    border-top: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 0;
+    width: 100%;
+    padding: 20px 110px;
+    background-color: rgb(95, 94, 94);
+}
+.foot-box{
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#foot-logo{
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    width: 150px;
+}
+
+.d{
+    background-color: rgba(153, 50, 205, 0.5);
+    color: white;
+}
